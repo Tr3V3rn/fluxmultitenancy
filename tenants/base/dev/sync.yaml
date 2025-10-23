@@ -20,7 +20,7 @@ metadata:
 spec:
   interval: 1m0s
   secretRef:
-    name: github-auth
+    name: github-oci-auth
   type: oci
   url: oci://683432915883.dkr.ecr.us-east-1.amazonaws.com/
 ---
